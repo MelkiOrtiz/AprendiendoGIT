@@ -1,24 +1,29 @@
-﻿//Conversion de entero a decimal
-int entero = 5;
-decimal decimalConvertido = Convert.ToDecimal(entero);
-Console.WriteLine("El Entero Convertido A Decimal: " + decimalConvertido);
+﻿// Calcula la suma de dos números enteros
+int num1 = 10;                       /*El $ es para hacer una cadena es interpolada. Las expresiones entre */
+int num2 = 5;                        /*llaves {} son evaluadas y su resultado se inserta en la cadena :) */
+int suma = num1 + num2;
+Console.WriteLine($"La Suma de {num1} y {num2} es: {suma}");
 
-// Conversión de decimal a flotante
-decimal decimalOriginal = 10.5m;
-float floatConvertido = Convert.ToSingle(decimalOriginal);
-Console.WriteLine($"Decimal convertido a flotante: " + floatConvertido);
+// Calcula la resta de dos números decimales
+decimal decimal1 = 10.5m;
+decimal decimal2 = 3.2m;
+decimal resta = decimal1 - decimal2;
+Console.WriteLine($"La Resta de {decimal1} y {decimal2} es: {resta}");
 
-// Conversión de flotante a entero
-float flotanteOriginal = 10.8f;
-int enteroConvertido = Convert.ToInt32(flotanteOriginal);
-Console.WriteLine($"Flotante convertido a entero: " + enteroConvertido);
+// Calcula la multiplicación de dos números flotantes
+float float1 = 3.5f;
+float float2 = 2.5f;
+float multiplicacion = float1 * float2;
+Console.WriteLine($"La Multiplicación de {float1} y {float2} es: {multiplicacion}");
 
-// Conversión de caracter a entero                                              
-char caracterOriginal = 'A';                                                    /* Se Hace la conversión del carácter a su valor*/
-int caracterConvertido = (int)caracterOriginal;                                 /* entero ASCII correspondiente. */
-Console.WriteLine($"Carácter convertido a entero: " + caracterConvertido);
+// Calcula la división de dos números enteros
+int dividendo = 20;
+int divisor = 3;
+int division = dividendo / divisor;
+Console.WriteLine($"La División de {dividendo} entre {divisor} es: {division}");
 
-// Conversión de entero a caracter
-int enteroCaracter = 65;                                                        
-char caracterResultado = (char)enteroCaracter;                                  // Aca lo mismo pero alrevez 
-Console.WriteLine($"Entero convertido a carácter: {caracterResultado}");
+// Calcula el módulo de dos números enteros
+int numero1 = 20;
+int numero2 = 7;
+int modulo = numero1 % numero2;
+Console.WriteLine($"El Módulo de {numero1} entre {numero2} es: {modulo}");

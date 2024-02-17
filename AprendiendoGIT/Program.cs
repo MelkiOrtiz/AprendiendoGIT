@@ -24,3 +24,4 @@ Console.WriteLine($"La temperatura en grados Fahrenheit es: {temperaturaFahrenhe
 temperaturaFahrenheit = 77;                   // Aca tambien se puede cambiar la temperatura, la formula no cambia
 temperaturaCelsius = (temperaturaFahrenheit - 32) * 5 / 9;   //Esta formula y la anterior no se pueden cambiar porque asi es la formula
 Console.WriteLine($"La temperatura en grados Celsius es: {temperaturaCelsius}");
+//Hola este es un ejemplo para el video 
